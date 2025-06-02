@@ -1,0 +1,87 @@
+1> -- Таблица домов
+2> CREATE TABLE houses (
+3>     id INT PRIMARY KEY IDENTITY(1,1),
+4>     address VARCHAR(255) NOT NULL,
+5>     floors_count INT,
+6>     entrances_count INT
+7> );
+8>
+9> -- Таблица квартир
+10> CREATE TABLE apartments (
+11>     id INT PRIMARY KEY IDENTITY(1,1),
+12>     address VARCHAR(255) NOT NULL,
+13>     area FLOAT,
+14>     house_id INT NOT NULL,
+15>     CONSTRAINT FK_apartments_house FOREIGN KEY (house_id) REFERENCES houses(id) ON DELETE CASCADE
+16> );
+17>
+18> -- Таблица жильцов
+19> CREATE TABLE residents (
+20>     id INT PRIMARY KEY IDENTITY(1,1),
+21>     full_name VARCHAR(255) NOT NULL,
+22>     phone VARCHAR(50),
+23>     email VARCHAR(255),
+24>     apartment_id INT UNIQUE,
+25>     CONSTRAINT FK_residents_apartment FOREIGN KEY (apartment_id) REFERENCES apartments(id) ON DELETE SET NULL
+26> );
+27>
+28> -- Таблица заявок
+29> CREATE TABLE requests (
+30>     id INT PRIMARY KEY IDENTITY(1,1),
+31>     resident_id INT NOT NULL,
+32>     apartment_id INT NOT NULL,
+33>     description TEXT,
+34>     status VARCHAR(50),
+35>     created_at DATETIME DEFAULT GETDATE(),
+36>     closed_at DATETIME,
+37>     CONSTRAINT FK_requests_resident FOREIGN KEY (resident_id) REFERENCES residents(id) ON DELETE CASCADE,
+38>     CONSTRAINT FK_requests_apartment FOREIGN KEY (apartment_id) REFERENCES apartments(id) ON DELETE CASCADE
+39> );
+40>
+41> -- Таблица сотрудников
+42> CREATE TABLE staff (
+43>     id INT PRIMARY KEY IDENTITY(1,1),
+44>     full_name VARCHAR(255) NOT NULL,
+45>     position VARCHAR(100),
+46>     phone VARCHAR(50)
+47> );
+48>
+49> -- Таблица назначенных работ
+50> CREATE TABLE assigned_works (
+51>     id INT PRIMARY KEY IDENTITY(1,1),
+52>     request_id INT NOT NULL,
+53>     staff_id INT NOT NULL,
+54>     assigned_date DATE,
+55>     completed_date DATE,
+56>     CONSTRAINT FK_assigned_works_request FOREIGN KEY (request_id) REFERENCES requests(id) ON DELETE CASCADE,
+57>     CONSTRAINT FK_assigned_works_staff FOREIGN KEY (staff_id) REFERENCES staff(id) ON DELETE CASCADE
+58> );
+59>
+60> -- Таблица договоров
+61> CREATE TABLE contracts (
+62>     id INT PRIMARY KEY IDENTITY(1,1),
+63>     resident_id INT NOT NULL,
+64>     house_id INT NOT NULL,
+65>     start_date DATE NOT NULL,
+66>     end_date DATE,
+67>     CONSTRAINT FK_contracts_resident FOREIGN KEY (resident_id) REFERENCES residents(id) ON DELETE CASCADE,
+68>     CONSTRAINT FK_contracts_house FOREIGN KEY (house_id) REFERENCES houses(id) ON DELETE CASCADE
+69> );
+70>
+71> -- Таблица услуг
+72> CREATE TABLE services (
+73>     id INT PRIMARY KEY IDENTITY(1,1),
+74>     name VARCHAR(255) NOT NULL,
+75>     cost DECIMAL(10,2) NOT NULL
+76> );
+77>
+78> -- Таблица платежей
+79> CREATE TABLE payments (
+80>     id INT PRIMARY KEY IDENTITY(1,1),
+81>     resident_id INT NOT NULL,
+82>     amount DECIMAL(10,2) NOT NULL,
+83>     date DATE NOT NULL,
+84>     service_type VARCHAR(100),
+85>     CONSTRAINT FK_payments_resident FOREIGN KEY (resident_id) REFERENCES residents(id) ON DELETE CASCADE
+86> );
+87> GO

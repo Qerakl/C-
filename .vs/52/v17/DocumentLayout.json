@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\qerakl\\Desktop\\byba\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BC1EC802-BDD1-432D-9537-DDD8E91242DE}|52\\52.csproj|C:\\Users\\qerakl\\Desktop\\byba\\52\\rereg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BC1EC802-BDD1-432D-9537-DDD8E91242DE}|52\\52.csproj|solutionrelative:52\\rereg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC1EC802-BDD1-432D-9537-DDD8E91242DE}|52\\52.csproj|c:\\users\\qerakl\\desktop\\byba\\52\\rereg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC1EC802-BDD1-432D-9537-DDD8E91242DE}|52\\52.csproj|solutionrelative:52\\rereg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC1EC802-BDD1-432D-9537-DDD8E91242DE}|52\\52.csproj|c:\\users\\qerakl\\desktop\\byba\\52\\areg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC1EC802-BDD1-432D-9537-DDD8E91242DE}|52\\52.csproj|solutionrelative:52\\areg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC1EC802-BDD1-432D-9537-DDD8E91242DE}|52\\52.csproj|c:\\users\\qerakl\\desktop\\byba\\52\\areg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BC1EC802-BDD1-432D-9537-DDD8E91242DE}|52\\52.csproj|solutionrelative:52\\areg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC1EC802-BDD1-432D-9537-DDD8E91242DE}|52\\52.csproj|c:\\users\\qerakl\\desktop\\byba\\52\\adm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC1EC802-BDD1-432D-9537-DDD8E91242DE}|52\\52.csproj|solutionrelative:52\\adm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC1EC802-BDD1-432D-9537-DDD8E91242DE}|52\\52.csproj|C:\\Users\\qerakl\\Desktop\\byba\\52\\adm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BC1EC802-BDD1-432D-9537-DDD8E91242DE}|52\\52.csproj|solutionrelative:52\\adm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC1EC802-BDD1-432D-9537-DDD8E91242DE}|52\\52.csproj|c:\\users\\qerakl\\desktop\\byba\\52\\adm.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC1EC802-BDD1-432D-9537-DDD8E91242DE}|52\\52.csproj|solutionrelative:52\\adm.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC1EC802-BDD1-432D-9537-DDD8E91242DE}|52\\52.csproj|c:\\users\\qerakl\\desktop\\byba\\52\\adm.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{BC1EC802-BDD1-432D-9537-DDD8E91242DE}|52\\52.csproj|solutionrelative:52\\adm.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC1EC802-BDD1-432D-9537-DDD8E91242DE}|52\\52.csproj|c:\\users\\qerakl\\desktop\\byba\\52\\bd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC1EC802-BDD1-432D-9537-DDD8E91242DE}|52\\52.csproj|solutionrelative:52\\bd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "adm.cs",
+              "DocumentMoniker": "C:\\Users\\qerakl\\Desktop\\byba\\52\\adm.cs",
+              "RelativeDocumentMoniker": "52\\adm.cs",
+              "ToolTip": "C:\\Users\\qerakl\\Desktop\\byba\\52\\adm.cs",
+              "RelativeToolTip": "52\\adm.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAgwK8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T18:44:35.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "adm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\qerakl\\Desktop\\byba\\52\\adm.Designer.cs",
+              "RelativeDocumentMoniker": "52\\adm.Designer.cs",
+              "ToolTip": "C:\\Users\\qerakl\\Desktop\\byba\\52\\adm.Designer.cs",
+              "RelativeToolTip": "52\\adm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T18:44:27.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "adm.resx",
+              "DocumentMoniker": "C:\\Users\\qerakl\\Desktop\\byba\\52\\adm.resx",
+              "RelativeDocumentMoniker": "52\\adm.resx",
+              "ToolTip": "C:\\Users\\qerakl\\Desktop\\byba\\52\\adm.resx",
+              "RelativeToolTip": "52\\adm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-06-02T18:44:25.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "areg.cs",
+              "DocumentMoniker": "C:\\Users\\qerakl\\Desktop\\byba\\52\\areg.cs",
+              "RelativeDocumentMoniker": "52\\areg.cs",
+              "ToolTip": "C:\\Users\\qerakl\\Desktop\\byba\\52\\areg.cs",
+              "RelativeToolTip": "52\\areg.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAYwGEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T18:31:26.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "areg.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\qerakl\\Desktop\\byba\\52\\areg.cs",
+              "RelativeDocumentMoniker": "52\\areg.cs",
+              "ToolTip": "C:\\Users\\qerakl\\Desktop\\byba\\52\\areg.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "52\\areg.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T18:30:55.166Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "adm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\qerakl\\Desktop\\byba\\52\\adm.cs",
+              "RelativeDocumentMoniker": "52\\adm.cs",
+              "ToolTip": "C:\\Users\\qerakl\\Desktop\\byba\\52\\adm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "52\\adm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T18:30:52.117Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "rereg.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\qerakl\\Desktop\\byba\\52\\rereg.cs",
+              "RelativeDocumentMoniker": "52\\rereg.cs",
+              "ToolTip": "C:\\Users\\qerakl\\Desktop\\byba\\52\\rereg.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "52\\rereg.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T18:30:40.023Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "rereg.cs",
+              "DocumentMoniker": "C:\\Users\\qerakl\\Desktop\\byba\\52\\rereg.cs",
+              "RelativeDocumentMoniker": "52\\rereg.cs",
+              "ToolTip": "C:\\Users\\qerakl\\Desktop\\byba\\52\\rereg.cs",
+              "RelativeToolTip": "52\\rereg.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAYwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T18:37:09.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BD.cs",
+              "DocumentMoniker": "C:\\Users\\qerakl\\Desktop\\byba\\52\\BD.cs",
+              "RelativeDocumentMoniker": "52\\BD.cs",
+              "ToolTip": "C:\\Users\\qerakl\\Desktop\\byba\\52\\BD.cs",
+              "RelativeToolTip": "52\\BD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T18:42:58.613Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

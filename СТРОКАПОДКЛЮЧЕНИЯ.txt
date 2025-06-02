@@ -1,0 +1,3 @@
+Для калсса БД @"Data Source=206-chuc;Initial Catalog=testik;Persist Security Info=True;User ID=sa;Pooling=False;Multiple Active Result Sets=False;Encrypt=False;Trust Server Certificate=True;Application Name=""SQL Server Management Studio"";Command Timeout=0;password=123456"
+
+Для форм конпок @"Data Source=206-chuc;Initial Catalog=testik;Persist Security Info=True;User ID=sa;Pooling=False;Encrypt=False;Application Name=""SQL Server Management Studio"";password=123456"
